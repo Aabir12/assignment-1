@@ -187,10 +187,63 @@ body {
     padding: 32px;
     border-radius: 16px;
 }
+iframe{
+    border-radius: 16px;
+}
 .inspire-content-h1{
     font-size: 24px;
 }
 .inspire-content-p{
-    font size: 16px;
+    font-size: 16px;
 }
+/* started to design the my current target about ph */
+.target-container {
+    height: 463px;
+    width: 1140px;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-top: 149px;
+    /* border: 2px solid tomato; */
 
+}
+.target-text-content{
+    height: 115px;
+    width: 852px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    margin-bottom: 48px;
+     text-align: center;
+}
+.target-text-content h1{
+    font-size: 24px;
+}
+.target-text-content p{
+    font-size: 16pxpx;
+}
+.target-image-content{
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    gap: 24px;
+}
+.icon-t1, .icon-t2, .icon-t3{
+    padding: 10px;
+    /* border: 2px solid tomato; */
+    border-radius: 16px;
+    padding: 40px;
+    width: 364px;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.icon-t1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.icon-t2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.icon-t3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.icons-img{
+    color: rgb(13, 19, 33);
+}
