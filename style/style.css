@@ -251,7 +251,7 @@ iframe{
     margin-top: 41px;
     border-radius: 16px;
     background-color: rgba(0, 0, 0, 0.2);
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: center;
