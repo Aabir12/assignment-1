@@ -26,7 +26,6 @@ body {
     flex-direction: column;
     gap: 32px;
     justify-content: center;
-    /* border: 2px solid rgb(18, 18, 159); */
     margin: 0 auto;
     text-align: center;
 }
@@ -56,7 +55,6 @@ body {
 /* started to design the why web development in main part */
 
 .development-container{
-    /* border: 2px solid tomato; */
     width:  1140px;
     height: 1395px;
     margin-left: 148px;
@@ -72,7 +70,6 @@ body {
 .development-text-content{
     height: 115px;
     width: 852px;
-    /* border: 2px solid tomato; */
     margin: 0 auto;
     margin-bottom: 48px;
      text-align: center;
@@ -87,7 +84,6 @@ body {
 .dev-section-1{
     height: 336px;
     width: 946px;
-    /* border: 2px solid tomato; */
     margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
@@ -119,7 +115,6 @@ body {
 .dev-section-2{
     height: 336px;
     width: 946px;
-    /* border: 2px solid tomato; */
     margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
@@ -170,11 +165,12 @@ body {
     font-size: 20px;
     cursor: pointer
 }
+
 /* stared to design the inspiration part  */
+
 .inspire-container{
     height: 777px;
     width: 1140px;
-    /* border: 2px solid tomato; */
     margin-left: 148px;
     margin-right: 152px;
     margin-top: 88px;
@@ -199,20 +195,19 @@ iframe{
 .inspire-content-p{
     font-size: 16px;
 }
+
 /* started to design the my current target about ph */
+
 .target-container {
     height: 463px;
     width: 1140px;
     margin-left: 148px;
     margin-right: 152px;
     margin-top: 149px;
-    /* border: 2px solid tomato; */
-
 }
 .target-text-content{
     height: 115px;
     width: 852px;
-    /* border: 2px solid tomato; */
     margin: 0 auto;
     margin-bottom: 48px;
      text-align: center;
@@ -231,7 +226,6 @@ iframe{
 }
 .icon-t1, .icon-t2, .icon-t3{
     padding: 10px;
-    /* border: 2px solid tomato; */
     border-radius: 16px;
     padding: 40px;
     width: 364px;
@@ -253,7 +247,6 @@ iframe{
 .feedback-container{
     width: 1140px;
     height: 314px; 
-    /* border: 2px solid tomato; */
     margin-left: 150px;
     margin-top: 41px;
     border-radius: 16px;
@@ -285,8 +278,34 @@ iframe{
     margin-top: 39px;
 }
 #submit{
-    font-size: ;
+    font-size: 20px;
     height: 58px;
     width: 120px;
+}
+
+/* started to design the footer part */
+nav{
+    margin: 79px 0px 0px 0px;
+    padding: 32px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-title{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 24px;
+}
+nav ul a {
+    text-decoration: none;
 }
 
